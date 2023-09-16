@@ -17,3 +17,18 @@ And the you can run it:
 ```
 
 Done!
+
+## Exercises
+
+### Sequencing
+
+[exercise_01.c](exercises_sequencing/exercise_01.c)
+
+```c
+#include <stdio.h>
+
+int main(){
+    printf("Olá mundo!\n");
+    return 0;
+} ''
+```
