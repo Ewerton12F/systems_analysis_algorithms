@@ -32,3 +32,16 @@ int main(){
     return 0;
 } 
 ```
+
+[exercise_02.c](exercises_sequencing/exercise_02.c)
+
+```c
+#include <stdio.h>
+
+int main(){
+    char name[20];
+    scanf("%s", name);
+    printf("Olá %s, bem-vindo(a) ao mundo da linguagem de programação C!", name);
+    return 0;
+}
+```
