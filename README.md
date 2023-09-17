@@ -45,3 +45,21 @@ int main(){
     return 0;
 }
 ```
+
+[exercise_03.c](exercises_sequencing/exercise_03.c)
+
+```c
+#include <stdio.h>
+
+int mult(int a, int b){
+    int s = a*b;
+    return s;
+}
+
+int main(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    printf("%d\n",mult(a,b));
+    return 0;
+}
+```
